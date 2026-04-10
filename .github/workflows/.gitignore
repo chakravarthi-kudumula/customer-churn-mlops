@@ -1,6 +1,0 @@
-churn/
-mlruns/
-__pycache__/
-.ipynb_checkpoints/
-.env
-*.pyc
