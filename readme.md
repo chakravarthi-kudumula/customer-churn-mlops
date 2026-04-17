@@ -91,7 +91,7 @@ Customer churn directly impacts revenue and long-term growth. This project build
   - Model versioning  
 
 ### Pipeline Validation
-- 'scripts/' acts as pipeline tests 
+- `scripts/` acts as pipeline tests 
 - Ensures pipeline reliability 
 - Validating :
     - Data ingestion
