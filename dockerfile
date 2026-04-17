@@ -11,8 +11,13 @@ COPY requirements.txt .
 RUN pip install --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
-# 5. Copy entire project (including model/)
-COPY . .
+# 5. Copy necessary things only (including model/)
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY src/ ./src/
+COPY app/ ./app/
+COPY artifacts/ ./artifacts/
 
 # 6. Set environment variables
 ENV PYTHONUNBUFFERED=1 \

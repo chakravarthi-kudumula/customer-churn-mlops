@@ -1,0 +1,11 @@
+pytest
+ipykernel
+jupyter
+matplotlib
+seaborn
+mlflow
+optuna
+great_expectations
+ipython
+black
+flake8

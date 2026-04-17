@@ -3,23 +3,27 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Virtual environment
+# Virtual env
 churn/
 venv/
 env/
+.venv/
+
+# Data
+data/
 
 # MLflow
 mlruns/
 
-# Mac
-.DS_Store
-
-# Data (optional)
-data/raw/
-data/processed/
+# Artifacts (optional)
+artifacts/
 
 # Jupyter
+notebooks/
 .ipynb_checkpoints/
+
+# OS
+.DS_Store
 
 # Logs
 *.log

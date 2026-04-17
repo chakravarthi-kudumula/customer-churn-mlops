@@ -1,12 +1,13 @@
 import pandas as pd
 import os
 
-def load_data(file_path: str) -> pd.DataFrame:
+def load_data(file_path: str = "data/raw/Telco_Customer_Churn.csv") -> pd.DataFrame:
     """
     Loads CSV data into a pandas DataFrame.
 
     Args:
-        file_path (str): Path to the CSV file.
+        file_path (str, optional): Path to the CSV file.
+                                  Defaults to raw dataset path.
 
     Returns:
         pd.DataFrame: Loaded dataset.

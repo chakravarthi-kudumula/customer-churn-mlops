@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env (CRITICAL)
+churn/
+venv/
+
+# Data & experiments
+mlruns/
+notebooks/
+data/
+
+# Git
+.git
+
+# OS files
+.DS_Store
